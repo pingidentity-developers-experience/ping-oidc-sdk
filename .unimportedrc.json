@@ -1,0 +1,4 @@
+{
+  "ignoreUnresolved": [["!!raw-loader!../../uglify-raw!babel-loader!./worker-thread.js", ["src/utilities/worker-store.ts"]]],
+  "ignoreUnimported": ["src/utilities/worker-thread.js"]
+}
