@@ -1,0 +1,15 @@
+{
+  "ignoreUnresolved": [
+    [
+      "!!raw-loader!../../uglify-raw!babel-loader!./worker-thread.js",
+      [
+        "src/utilities/worker-store.ts"
+      ]
+    ]
+  ],
+  "ignoreUnused": [
+    "@angular/forms",
+    "tslib"
+  ],
+  "ignoreUnimported": []
+}

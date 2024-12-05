@@ -1,0 +1,1 @@
+ignores: ["@angular/forms", "tslib", "@angular-devkit/build-angular", "@angular/compiler-cli", "typescript"]
