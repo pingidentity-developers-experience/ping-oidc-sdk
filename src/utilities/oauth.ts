@@ -18,7 +18,7 @@ export class OAuth {
     if (!btoa) {
       try {
         btoa = (str) => Buffer.from(str, 'binary').toString('base64');
-      } catch (error) {
+      } catch {
         throw Error(`Could not find a suitable btoa method, perhaps you're on an old browser or node version?`);
       }
     }
@@ -32,7 +32,7 @@ export class OAuth {
     if (!atob) {
       try {
         atob = (str) => Buffer.from(str, 'base64').toString('binary');
-      } catch (error) {
+      } catch {
         throw Error(`Could not find a suitable atob method, perhaps you're on an old browser or node version?`);
       }
     }
