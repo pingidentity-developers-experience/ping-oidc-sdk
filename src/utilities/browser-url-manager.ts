@@ -115,7 +115,7 @@ export class BrowserUrlManager {
             popup.close();
             clearInterval(checkPopup);
           }
-        } catch (_) {
+        } catch {
           this.logger.debug('BrowserUrlMananger', 'Error encountered in inverval watching the popup window, this is likely because the window is still navigated to auth server');
         }
       }, 150);

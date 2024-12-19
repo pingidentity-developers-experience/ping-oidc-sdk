@@ -2,9 +2,10 @@ import { Component } from '@angular/core';
 import { OidcClient, TokenResponse, StorageType } from '@pingidentity-developers-experience/ping-oidc-client-sdk';
 
 @Component({
-  selector: 'home',
-  templateUrl: './home.component.html',
-  styleUrls: ['./home.component.css'],
+    selector: 'home',
+    templateUrl: './home.component.html',
+    styleUrls: ['./home.component.css'],
+    standalone: false
 })
 export class HomeComponent {
   title = 'angular-oidc';
